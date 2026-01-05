@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEORGELLYS Couture</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+ <!-- Theme Toggle Button --> 
+          <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+</head>
+<body>
+
+    <div class="page-wrapper"
+    <!-- HEADER -->
+    <header class="site-header">
+        <h1 class="site-title">GEORGELLYS Couture</h1>
+        <div class="cart" id="cart-icon"> 
+            🛒 Cart: <span id="cart-count">0</span>
+            <!-- Dropdown --> 
+             <div id="cart-dropdown" class="cart-dropdown hidden"> 
+                <h3>Your Cart</h3> 
+                <ul id="cart-items"></ul> 
+                <p id="cart-total">Total: $0</p> 
+                <button id="clear-cart" class="clear-btn">Clear Cart</button>
+            </div>
+         </div>
+         <div id="greeting"></div>
+
+         <p>Discover stylish bags and shoes curated just for you.</p>
+         
+        </header>
+    </header>
+
+    <!--DARK MODE LIGHT MODE-->
+    
+       
+    <!-- NAVIGATION -->
+        <nav class="site-nav">
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+         <!-- MAIN CONTENT-->
+        <main>
+
+        <!--Product showcase-->
+        <section class="home-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+
+                <!--BAG 1-->
+                <div class="product-card">
+                    <img src="images/img6.jpg" alt="Mary Frances Snake Purse">
+                    <h3>Mary Frances Snake Purse</h3>
+                    <p>$200</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+                
+                <!--BAG 2-->
+                 <div class="product-card">
+                    <img src="images/img7.jpg" alt="Louis Vuitton 2009 Bulle">
+                    <h3>Louis Vuitton 2009 Bulle</h3>
+                    <p>$150</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+
+                <!--SHOE 1-->
+                 <div class="product-card">
+                    <img src="images/img2.jpg" alt="Custom Fur Boots">
+                    <h3>Custom Fur Boots</h3>
+                    <p>$700</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+
+                <!--SHOE 2-->
+                 <div class="product-card">
+                    <img src="images/img4.jpg" alt="2K CD Boots">
+                    <h3>2K CD Boots</h3>
+                    <p>$400</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- View All Button -->
+      <div class="view-all"> 
+        <a href="products.html" class="btn">View All Products</a> 
+    </div> 
+    
+
+</section> 
+</main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <small>&copy; 2025 GEORGELLYS. All rights reserved</small>
+    </footer>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

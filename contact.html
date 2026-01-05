@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact GEORGELLYS Couture</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+   <!-- Theme Toggle Button --> 
+          <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">Contact GEORGELLYS Couture</h1>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <div class="cart" id="cart-icon"> 
+            🛒 Cart: <span id="cart-count">0</span>
+            <!-- Dropdown --> 
+             <div id="cart-dropdown" class="cart-dropdown hidden"> 
+                <h3>Your Cart</h3> 
+                <ul id="cart-items"></ul> 
+                <p id="cart-total">Total: $0</p> 
+                <button id="clear-cart" class="clear-btn">Clear Cart</button>
+            </div>
+         </div>
+          
+  </header>
+
+  <main class="contact-content">
+    <section class="contact-info">
+      <h2>Get In Touch</h2>
+      <p>We’d love to hear from you! Reach out for inquiries, collaborations, or customer support.</p>
+      <ul>
+        <li>Email: <a href="mailto:info@georgellys.com">info@georgellys.com</a></li>
+        <li>Phone: +254 114 810 677</li>
+        <li>Location: Nairobi, Kenya</li>
+      </ul>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form id="contactForm" action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="form-error" style="color:red; display:none;"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; 2025 GEORGELLYS. All rights reserved</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
